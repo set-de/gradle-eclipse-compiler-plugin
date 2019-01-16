@@ -55,8 +55,8 @@ checkstyle {
 }
 
 pluginBundle {
-    website = 'https://github.com/TwoStone/gradle-eclipse-compiler-plugin'
-    vcsUrl = 'https://github.com/TwoStone/gradle-eclipse-compiler-plugin'
+    website = 'https://git.posy.de/SET/gradle-eclipse-compiler-plugin'
+    vcsUrl = 'https://git.posy.de/SET/gradle-eclipse-compiler-plugin'
     description = 'Gradle plugin for using the eclipse compiler for java (ecj) for compiling java files instead of javac'
     tags = ['ecj', 'eclipse compiler for java', 'java', 'compile']
 
