@@ -26,8 +26,8 @@ dependencies {
     }
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '5.1'
+task wrapperXXX(type: Wrapper) {
+    gradleVersion = '5.1.1'
 }
 
 test {
