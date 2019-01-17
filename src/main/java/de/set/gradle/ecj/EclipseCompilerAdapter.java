@@ -33,7 +33,9 @@ public class EclipseCompilerAdapter implements Compiler<JavaCompileSpec> {
     LOGGER.info("Compiling sources using eclipse compiler for java");
 
     final List<String> remainingArguments =
-        new JavaCompilerArgumentsBuilder(javaCompileSpec).includeSourceFiles(true).build();
+        new JavaCompilerArgumentsBuilder(javaCompileSpec)
+          .includeSourceFiles(true)
+          .build();
 
     ExecResult result = project.javaexec(exec -> {
       exec.setWorkingDir(javaCompileSpec.getWorkingDir());

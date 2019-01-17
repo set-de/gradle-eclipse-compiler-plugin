@@ -2,3 +2,6 @@
 /gradle-eclipse-compiler-plugin.iml
 /.idea
 /.gradle
+/bin
+.project
+.classpath
